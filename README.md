@@ -1,5 +1,5 @@
-# nlw6-beauty-salon
+# Spa MD
 
-- Projeto criado durante a Next Level Week #6 da Rocketseat, missão Origin.
+- Website de spamd.cl
 
-<a href="https://matheuscostadesign.github.io/nlw6-beauty-salon/"><img src="assets/.github/landing.png" alt="BeautySalon"></a>
+<a href="https://spamd.cl/"></a>
