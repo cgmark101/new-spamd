@@ -27,6 +27,7 @@
     content="https://raw.githubusercontent.com/matheuscostadesign/nlw6-beauty-salon/main/assets/.github/open-graph.png"> -->
 
     <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="libs/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 
@@ -46,9 +47,33 @@
     <meta name="msapplication-TileColor" content="#69B99D">
     <meta name="theme-color" content="#69B99D">
 
+    <style>
+        .whatsapp {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            z-index: 100;
+        }
+
+        .whatsapp-icon {
+            margin-top: 15px;
+        }
+    </style>
+
 </head>
 
 <body>
+
+    <!-- Whatsapp Widget -->
+    <a href="https://api.whatsapp.com/send?phone=+5517992143072&text=Vamos a agendar un horario!" class="whatsapp"
+        target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <!-- Header -->
     <header id="header">
@@ -125,17 +150,20 @@
                     <div class="card">
                         <i class="icon-nails"></i>
                         <h3 class="title">Manicura</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
                     </div>
                     <div class="card">
                         <i class="icon-foot"></i>
                         <h3 class="title">Pedicura</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
                     </div>
                     <div class="card">
                         <i class="icon-smiling"></i>
                         <h3 class="title">Tratamientos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
@@ -220,8 +248,8 @@
                     <h2 class="title">Contactanos</h2>
                     <p>Escribenos a la mesajeria whatsapp para responder todas tus dudas o agendar uina cita
                     </p>
-                    <a href="https://api.whatsapp.com/send?phone=+5517992143072&text=Hola!"
-                        target="_blank" class="button"><i class="icon-whatsapp"></i>Contacto</a>
+                    <a href="https://api.whatsapp.com/send?phone=+5517992143072&text=Hola!" target="_blank"
+                        class="button"><i class="icon-whatsapp"></i>Contacto</a>
                 </div>
                 <div class="links">
                     <ul class="grid">
@@ -249,15 +277,16 @@
                 <a href="#" target="_blank"><i class="icon-instagram"></i></a>
                 <a href="#" target="_blank"><i class="icon-facebook"></i></a>
                 <a href="#" target="_blank"><i class="icon-youtube"></i></a>
-                
-                
-                <a href="#" target="_blank"><i><img src="/assets/images/twitter.svg" alt="" style="height: 24px;"></i></a>
+
+
+                <a href="#" target="_blank"><i><img src="/assets/images/twitter.svg" alt=""
+                            style="height: 24px;"></i></a>
                 <a href="#" target="_blank"><i><img src="/assets/images/twitter.svg" alt="twitter"></i></a>
-                
+
             </div>
         </div>
     </footer>
-    
+
     <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
     <!-- Swiper / Scroll -->
@@ -266,24 +295,6 @@
     <script src="libs/scrollreveal.min.js"></script>
     <!-- Scripts -->
     <script src="main.js"></script>
-    <script  type="text/javascript">
-        var config = {
-          phone :" 584121092716",
-          call :"Contactanos",
-          position :"ww-right",
-          size : "ww-normal",
-          text : "",
-          type: "ww-standard",
-          brand: "spaMD",
-          subtitle: "",
-          welcome: ""
-        };
-        var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
-          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
-      
-          s.onload = function () { tmWidgetInit(config) };
-          var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
-      </script>
 
 </body>
 
